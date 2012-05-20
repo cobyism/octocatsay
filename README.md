@@ -4,7 +4,8 @@ Octocatsay
 You know [cowsay](http://www.nog.net/~tony/warez/cowsay.shtml), right? Well...
 
 ```sh
-
+$ git clone git://github.com/cobyism/octocatsay.git
+$ cd octocatsay
 $ ./octocatsay 'BOOYAH!'
 
            MMM.           .MMM           
