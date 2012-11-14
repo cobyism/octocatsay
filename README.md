@@ -31,6 +31,7 @@ $
          ~~~~~~==~==~==~==~~~~~~
              :~==~==~==~==~~
 ```
+```sh
 curl https://api.github.com/zen | octocatsay
 
            MMM.           .MMM
