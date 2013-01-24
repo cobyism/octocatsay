@@ -1,34 +1,38 @@
-#!/usr/bin/perl
-
-
+#!/bin/bash
 # octocatsay
 # Coby Chapple - https://github.com/cobyism/octocatsay
 
-my $text = @ARGV[0];
-unless ($text) {
-  $text = <STDIN>;
-  chomp $text;
-}
+if [ $# -eq 0 ];then
+  read line
+  text="$line"
+else
+  text=$1
+  shift
+  while (( "$#" )); do
+    text="$text $1"
+    shift
+  done
+fi
 
-print "
+echo -n "
            MMM.           .MMM
            MMMMMMMMMMMMMMMMMMM
            MMMMMMMMMMMMMMMMMMM      _";
-for ($i = 0; $i < length($text); $i++) {
-  print "_";
-}
-print "_
+for ((i = 0; i < ${#text}; i++)); do
+   echo -n "_";
+done
+echo -n "_
           MMMMMMMMMMMMMMMMMMMMM    | ";
-for ($i = 0; $i < length($text); $i++) {
-  print " ";
-}
-print " |
+for ((i = 0; i < ${#text}; i++)); do
+  echo -n " ";
+done
+echo -n " |
          MMMMMMMMMMMMMMMMMMMMMMM   | $text |
         MMMMMMMMMMMMMMMMMMMMMMMM   |_   ";
-for ($i = 0; $i < length($text) - 2; $i++) {
-  print "_";
-}
-print "|
+for ((i = 0; i < ${#text} -2; i++)); do
+  echo -n "_";
+done
+echo -n "|
         MMMM::- -:::::::- -::MMMM    |/
          MM~:~   ~:::::~   ~:~MM
     .. MMMMM::. .:::+:::. .::MMMMM ..
