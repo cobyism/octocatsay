@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SOURCE_REPO=https://github.com/pseudomuto/octocatsay.git
+SOURCE_REPO=https://github.com/cobyism/octocatsay.git
 APP_DIR=.octocatsay
 
 # allow param for testing...
