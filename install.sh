@@ -26,7 +26,7 @@ fi
 
 if [ ! $(echo $PATH | fgrep "$INSTALL_DIR/$APP_DIR/bin") ] ; then
   echo "Adding $APP_DIR to PATH."
-  echo "PATH=$INSTALL_DIR/.ghf/bin:\$PATH" >> ~/.bashrc
+  echo "PATH=$INSTALL_DIR/$APP_DIR/bin:\$PATH" >> ~/.bashrc
   source ~/.bashrc
 
   echo "run 'source ~/.bashrc' to update path in the current shell."
