@@ -4,9 +4,9 @@ Octocatsay
 You know [cowsay](http://www.nog.net/~tony/warez/cowsay.shtml), right? Well...
 
 ```sh
-$ git clone git://github.com/cobyism/octocatsay.git
-$ cd octocatsay
-$ ./octocatsay 'BOOYAH!'
+$ curl https://raw.github.com/cobyism/octocatsay/master/install.sh | $(which bash)
+$ source ~/.bashrc
+$ octocatsay 'BOOYAH!'
 $
 
            MMM.           .MMM
@@ -63,8 +63,13 @@ Do what you like with this, however remember that the Octocat is a trademark
 owned by [GitHub](https://github.com/). See their [Octocat usage
 F.A.Q.](http://octodex.github.com/faq.html) for what you can and can't do.
 
+## Installation
+
+Run the following from a shell:
+
+    $ curl https://raw.github.com/cobyism/octocatsay/master/install.sh | $(which bash)
+
 ## TODO
 
-- Make it so that it's something you can actually install on your system, rather than just a script you run.
 - Create an `octocathink` version like `cowthink`.
 - Do a better job on the ASCII, especially the negative space around the eyes.
