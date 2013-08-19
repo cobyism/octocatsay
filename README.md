@@ -4,9 +4,9 @@ Octocatsay
 You know [cowsay](http://www.nog.net/~tony/warez/cowsay.shtml), right? Well...
 
 ```sh
-$ git clone git://github.com/cobyism/octocatsay.git
-$ cd octocatsay
-$ ./octocatsay 'BOOYAH!'
+$ curl https://raw.github.com/cobyism/octocatsay/master/install.sh | $(which bash)
+$ source ~/.bashrc
+$ octocatsay 'BOOYAH!'
 $
 
            MMM.           .MMM
