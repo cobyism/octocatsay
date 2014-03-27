@@ -32,13 +32,7 @@ $
              :~==~==~==~==~~
 ```
 
-Clearly this is an (inadequate) rip-off of [Cowsay](http://en.wikipedia.org/wiki/Cowsay) by [Tony Monroe](http://www.nog.net/~tony/).
-
-Do what you like with this, however remember that the Octocat is a trademark
-owned by [GitHub](https://github.com/). See the [Octocat usage
-F.A.Q.](http://octodex.github.com/faq.html) for what you can and can't do.
-
-## Octocatsay: Cloud Edition™ :cloud:
+## Cloud Edition™ :cloud:
 
 Good news! Octocatsay is now baked into the [GitHub API](https://developer.github.com), so you don’t even need to install it. Simply point your browser (or `curl`) to <https://api.github.com/octocat> to have our beloved mascot deliver an inspiring [GitHub Zen](https://api.github.com/zen) meditation, or append a custom message using the `?s=YOURMESSAGEHERE` query parameter [like this](https://api.github.com/octocat?s=BOOM!): 
 
@@ -69,7 +63,7 @@ $ curl https://api.github.com/octocat?s=BOOM!
 ```
 
 
-## Installation
+## On Premise (a.k.a. regular installation)
 
 Run the following from a shell (presuming you use bash):
 
@@ -80,3 +74,10 @@ Run the following from a shell (presuming you use bash):
 
 - Create an `octocathink` version like `cowthink`.
 - Do a better job on the ASCII, especially the negative space around the eyes.
+
+## License
+
+[MIT](./LICENSE), so you can basically do what you like with this, however remember that the :octocat: is a trademark
+owned by [GitHub](https://github.com/). See the [Octocat usage
+F.A.Q.](http://octodex.github.com/faq.html) on the [Octodex](http://octodex.github.com) for usage guidelines.
+
