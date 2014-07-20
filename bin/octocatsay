@@ -34,8 +34,8 @@ for ((i = 0; i < ${#text} -2; i++)); do
 done
 echo -n "|
         MMMM::- -:::::::- -::MMMM    |/
-         MM~:~   ~:::::~   ~:~MM
-    .. MMMMM::. .:::+:::. .::MMMMM ..
+         MM~:~ 00~:::::~ 00~:~MM
+    .. MMMMM::.00:::+:::.00::MMMMM ..
           .MM::::: ._. :::::MM.
              MMMM;:::::;MMMM
       -MM        MMMMMMM
