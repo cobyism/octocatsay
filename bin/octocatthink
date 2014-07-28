@@ -28,13 +28,13 @@ for ((i = 0; i < ${#text}; i++)); do
 done
 echo -n " |
          MMMMMMMMMMMMMMMMMMMMMMM   | $text |
-        MMMMMMMMMMMMMMMMMMMMMMMM   |_   ";
+        MMMMMMMMMMMMMMMMMMMMMMMM   |____";
 for ((i = 0; i < ${#text} -2; i++)); do
   echo -n "_";
 done
 echo -n "|
-        MMMM::- -:::::::- -::MMMM    |/
-         MM~:~ 00~:::::~ 00~:~MM
+        MMMM::- -:::::::- -::MMMM     O
+         MM~:~ 00~:::::~ 00~:~MM    O
     .. MMMMM::.00:::+:::.00::MMMMM ..
           .MM::::: ._. :::::MM.
              MMMM;:::::;MMMM
