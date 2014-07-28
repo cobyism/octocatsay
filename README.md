@@ -16,8 +16,8 @@ $
          MMMMMMMMMMMMMMMMMMMMMMM   | BOOYAH! |
         MMMMMMMMMMMMMMMMMMMMMMMM   |_   _____|
         MMMM::- -:::::::- -::MMMM    |/
-         MM~:~   ~:::::~   ~:~MM
-    .. MMMMM::. .:::+:::. .::MMMMM ..
+         MM~:~ 00~:::::~ 00~:~MM
+    .. MMMMM::.00:::+:::.00::MMMMM ..
           .MM::::: ._. :::::MM.
              MMMM;:::::;MMMM
       -MM        MMMMMMM
