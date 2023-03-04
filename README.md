@@ -34,7 +34,7 @@ $
 
 ## Cloud Edition™ :cloud:
 
-Good news! Octocatsay is now baked into the [GitHub API](https://developer.github.com), so you don’t even need to install it. Simply point your browser (or `curl`) to <https://api.github.com/octocat> to have our beloved mascot deliver an inspiring [GitHub Zen](https://api.github.com/zen) meditation, or append a custom message using the `?s=YOURMESSAGEHERE` query parameter [like this](https://api.github.com/octocat?s=BOOM!). 
+Good news! Octocatsay is now baked into the [GitHub API](https://developer.github.com), so you don’t even need to install it. Simply point your browser (or `curl`) to <https://api.github.com/octocat> to have our beloved mascot deliver an inspiring [GitHub Zen](https://api.github.com/zen) meditation, or append a custom message using the `?s=YOURMESSAGEHERE` query parameter [like this](https://api.github.com/octocat?s=BOOM). 
 
 ## On Premise (a.k.a. regular installation)
 
