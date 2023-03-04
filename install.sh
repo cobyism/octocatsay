@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 SCRIPT_FILE=https://raw.github.com/cobyism/octocatsay/master/bin/octocatsay
 APP_DIR=.octocatsay
@@ -21,7 +21,8 @@ fi
 cd $APP_DIR/bin
 
 # get the file and save (overwriting if needed)
-curl $SCRIPT_FILE > octocatsay
+curl $SCRIPT_FILE --output octocatsay
+chmod +x octocatsay
 
 # update path (if necessary)
 
